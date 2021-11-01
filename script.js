@@ -25,7 +25,7 @@ function conditions() {
       askSpecial: askSpecial
     } 
     if((length < 8)||(length > 128))
-    alert("Choose number between 8 and 128");
+    alert("Choose a number between 8 and 128");
     else if((!askNumbers)&&(!askLowerCase)&&(!askUpperCase)&&(!askSpecial))
     alert("Please choose at least one type!");
     else
@@ -34,6 +34,10 @@ function conditions() {
   } while(!isValid);
   return responses;
 }
+
+// Function that results in a strong password from the user's responses
+
+
 
 // Write password to the #password input
 function writePassword() {

@@ -9,7 +9,7 @@ var special = ['@', '%', '+', '/', "'", '!', '#', '$', '^', '?', ':', ',', ')', 
 ];
 
 // Prompt for User Input Options
-function conditions() {
+function questions() {
   var isValid = false;
   do {
     var length = prompt("How long does your password need to be? Choose between 8 and 128 characters");

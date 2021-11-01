@@ -37,7 +37,17 @@ function conditions() {
 
 // Function that results in a strong password from the user's responses
 
+function generatePassword () {
+  var passwordOptions = questions ();
+  var possibleCombo = [];
+  var finalPassword = "";
 
+  if (passwordOptions.askNumbers) {
+    for (var i of numbers)
+    possibleCombo.push(i);
+  }
+  
+}
 
 // Write password to the #password input
 function writePassword() {
